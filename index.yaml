@@ -3,9 +3,26 @@ entries:
   instana-autotrace-webhook:
   - apiVersion: v2
     appVersion: 1.187.0
-    created: "2020-10-09T08:58:32.539160363Z"
+    created: "2020-10-22T12:10:28.939204425Z"
     description: Helm chart to install Instana's Autotrace Webhook
-    digest: 6c67f7d0273eec33bfddae75beceb0ffcde710f5d90b4fe6f95a3025ae7c3d3c
+    digest: 7aeebd5c5522c19263b37efbf4c1a4c052917c839ee0f281344eee3c57ae22bb
+    home: https://www.instana.com/
+    icon: https://instana-management-assets.s3-eu-west-1.amazonaws.com/stan-logo-2020.png
+    maintainers:
+    - email: michele.mancioppi@instana.com
+      name: Michele Mancioppi
+    name: instana-autotrace-webhook
+    sources:
+    - https://github.com/instana/instana-autotrace-webhook.git
+    type: application
+    urls:
+    - https://storage.googleapis.com/instana-autotrace-webhook-charts/instana-autotrace-webhook-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.187.0
+    created: "2020-10-22T12:10:28.938533131Z"
+    description: Helm chart to install Instana's Autotrace Webhook
+    digest: c1676e632c166a1ac3de36e1c43f14723564516d6190711c9cc43ae37e5e3db4
     home: https://www.instana.com/
     icon: https://instana-management-assets.s3-eu-west-1.amazonaws.com/stan-logo-2020.png
     maintainers:
@@ -20,7 +37,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.187.0
-    created: "2020-10-09T08:58:32.537731897Z"
+    created: "2020-10-22T12:10:28.938030828Z"
     description: Helm chart to install Instana's Autotrace Webhook
     digest: df41d4cfef55dd886d737f65b6a8c99c9a611c0a3b120d551bf96b854aa19575
     home: https://www.instana.com/
@@ -37,7 +54,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.187.0
-    created: "2020-10-09T08:58:32.53727743Z"
+    created: "2020-10-22T12:10:28.93755997Z"
     description: Helm chart to install Instana's Autotrace Webhook
     digest: 133253cb5042c8040dab48b62f8d22e088efe316dd162cddbb9fff4dc7db0568
     home: https://www.instana.com/
@@ -54,7 +71,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.186.0
-    created: "2020-10-09T08:58:32.536758764Z"
+    created: "2020-10-22T12:10:28.937029778Z"
     description: Helm chart to install Instana's Autotrace Webhook
     digest: c03b529075bb163976986ff67b94e4f7db08f9c87e64fa98c8faccdd7d7bedc6
     home: https://www.instana.com/
@@ -69,4 +86,4 @@ entries:
     urls:
     - https://storage.googleapis.com/instana-autotrace-webhook-charts/instana-autotrace-webhook-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-09T08:58:32.536082841Z"
+generated: "2020-10-22T12:10:28.936169253Z"
