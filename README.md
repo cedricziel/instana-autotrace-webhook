@@ -59,6 +59,7 @@ helm upgrade --namespace instana-autotrace-webhook instana-autotrace-webhook \
   A future version of the Helm chart will deliver native modules for other supported Node.js versions.
 - Environment variables applicable only for Node.js and .NET Core will show up in processes running in other runtimes.
   There is no known side-effect of this, don't get spooked :-)
+- Only `amd64` Kubernetes nodes are currently supported.
 
 ## Configuration
 
