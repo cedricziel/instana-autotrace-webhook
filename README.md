@@ -4,7 +4,7 @@ This project provides a Kubernetes [admission controller mutating webhook](https
 
 ## Requirements
 
-- Kubernetes Cluster 1.16+ OR OpenShift 4.x
+- Kubernetes 1.16+ OR OpenShift 4.x
 - `kubectl` 1.16+
 - Helm 3.2+ (in the setup instructions, we use the new `--create-namespace` flag for maximum comfort)
 
